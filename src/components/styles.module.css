@@ -1,0 +1,47 @@
+.appbar{
+    /* height: 50px; */
+}
+.appbar h4{
+    margin: 0;
+}
+.logo{
+    color: #4f6df5;
+    margin: 0px;
+    padding: 0px;
+    font-size: 22px;
+}
+.menue button{
+    text-transform: capitalize !important;
+}
+
+.menue button svg{
+    color: #999;
+}
+.menue button h4{
+    color: #4f6df5;
+}
+
+
+.cardAppbar{
+    background-color: #4f6df5 !important;
+}
+.btn{
+    background-color: #4f6df5 !important;
+    padding: 10px 70px !important;
+    margin-bottom: 60px !important;
+    text-transform: capitalize !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .mobile{
+        display: nome;
+    }
+    .logo{
+        font-size: 18px;
+    }
+    .menue button h4{
+        display: none;
+    }
+}
